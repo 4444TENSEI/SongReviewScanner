@@ -1,6 +1,13 @@
 <div style="display:flex;justify-content:center;align-items:center;flex-direction:column;">
-    <center><img src="https://testingcf.jsdelivr.net/gh/4444TENSEI/CDN/img/avatar/AngelDog/AngelDog-rounded.png" alt="Logo" width="200" height="200" /></center><h1 align="center"style="margin:0;"><strong>SongReviewScanner</strong></h1> <h3 align="center" style="margin:1rem 0;">查找冈易云音乐指定用户的"歌曲评论"自动化脚本</h3><div> <center>
- <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" /><img src="https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white" /> </center> </div>
+    <p align="center"><img src="https://testingcf.jsdelivr.net/gh/4444TENSEI/CDN/img/avatar/AngelDog/AngelDog-rounded.png" alt="Logo"
+        width="200" height="200"/></p>
+    <h1 align="center" style="margin:0;"><strong>SongReviewScanner</strong></h1>
+    <h3 align="center" style="margin:1rem 0;">查找冈易云音乐指定用户的"歌曲评论"自动化脚本</h3>
+    <p align="center">
+        <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+        <img src="https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white" />
+    </p>
+</div>
 
 <hr/>
 
