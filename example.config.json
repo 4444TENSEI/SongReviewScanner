@@ -1,0 +1,16 @@
+{
+    "userId": [
+        123456
+    ],
+    "searchMethod": "playlists",
+    "searchOptions": {
+        "playlists": [
+            123456
+        ],
+        "singles": [
+            123456
+        ]
+    },
+    "maxPages": 2000,
+    "queriesPerSecond": 5
+}

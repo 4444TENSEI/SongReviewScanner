@@ -1,0 +1,7 @@
+config.json
+Favicon.syso
+
+version/
+build/
+output/
+cache/
