@@ -2,7 +2,7 @@
 <p align="center"><img src="https://testingcf.jsdelivr.net/gh/4444TENSEI/CDN/img/avatar/AngelDog/AngelDog-rounded.png" alt="Logo"
     width="200" height="200"/></p>
 <h1 align="center">SongReviewScanner</h1>
-<h3 align="center">查找冈易云音乐指定用户的"歌曲评论"自动化脚本</h3>
+<h3 align="center">查找冈易云音乐"指定用户的歌曲评论"自动化脚本</h3>
 <p align="center">
     <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
     <img src="https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white" />
