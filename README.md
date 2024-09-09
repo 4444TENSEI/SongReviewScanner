@@ -1,31 +1,30 @@
-<div style="display:flex;justify-content:center;align-items:center;flex-direction:column;">
-    <p align="center"><img src="https://testingcf.jsdelivr.net/gh/4444TENSEI/CDN/img/avatar/AngelDog/AngelDog-rounded.png" alt="Logo"
-        width="200" height="200"/></p>
-    <h1 align="center" style="margin:0;"><strong>SongReviewScanner</strong></h1>
-    <h3 align="center" style="margin:1rem 0;">查找冈易云音乐指定用户的"歌曲评论"自动化脚本</h3>
-    <p align="center">
-        <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
-        <img src="https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white" />
-    </p>
-</div>
 
-<hr/>
+<p align="center"><img src="https://testingcf.jsdelivr.net/gh/4444TENSEI/CDN/img/avatar/AngelDog/AngelDog-rounded.png" alt="Logo"
+    width="200" height="200"/></p>
+<h1 align="center">SongReviewScanner</h1>
+<h3 align="center">查找冈易云音乐指定用户的"歌曲评论"自动化脚本</h3>
+<p align="center">
+    <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+    <img src="https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white" />
+</p>
+
+<br/>
 
 # 目录
 
 - ### [部署](#部署)
 
-- ### [修改配置](#配置文件)
+- ### [修改配置](##修改配置文件)
 
-  - ### [参数说明](#参数说明)
+  - ### [参数说明](###参数说明)
 
-- ### [目录结构](#目录结构)
+- ### [目录结构](##目录结构)
 
   
 
 <hr/>
 
-## 部署
+# 部署
 
 ### 拉取项目
 
@@ -43,7 +42,7 @@ go run main.go
 
 <hr/>
 
-##修改配置文件
+## 修改配置文件
 
 ### `config.json`示例:
 
@@ -62,7 +61,7 @@ go run main.go
         ]
     },
     "maxPages": 666666,
-    "queriesPerSecond": 5
+    "queriesPerSecond": 500
 }
 ```
 
@@ -85,12 +84,12 @@ go run main.go
 ```
 SongReviewScanner
 ├─ go.mod
-├─ main.go			//主程序
+├─ main.go		//主程序
 ├─ script
 │  ├─ build.bat		//打包脚本
 ├─ modules
 │  ├─ config.go		//加载配置文件
 │  ├─ playlists.go	//获取歌单内的单曲信息
 │  └─ singles.go	//从主程序传入单曲数值数组，负责主要的爬取工作
-└─ asset			//打包用的资源文件
+└─ asset		//打包用的资源文件
 ```
