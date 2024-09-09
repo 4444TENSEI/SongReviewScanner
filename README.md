@@ -1,10 +1,10 @@
-<center style="display:flex;justify-content:center;align-items:center;flex-direction:column;">
+<div style="display:flex;justify-content:center;align-items:center;flex-direction:column;">
     <center><img src="https://testingcf.jsdelivr.net/gh/4444TENSEI/CDN/img/avatar/AngelDog/AngelDog-rounded.png" alt="Logo" width="200" height="200" /></center><h1 align="center"style="margin:0;"><strong>SongReviewScanner</strong></h1> <h3 align="center" style="margin:1rem 0;">查找冈易云音乐指定用户的"歌曲评论"自动化脚本</h3><div> <center>
- <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" /><img src="https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white" /> </center> </center>
+ <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" /><img src="https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white" /> </center> </div>
 
 <hr/>
 
-# **目录**
+# 目录
 
 - ### [部署](#部署)
 
@@ -18,7 +18,7 @@
 
 <hr/>
 
-# **部署**
+## 部署
 
 ### 拉取项目
 
@@ -36,7 +36,7 @@ go run main.go
 
 <hr/>
 
-**修改配置文件**
+##修改配置文件
 
 ### `config.json`示例:
 
@@ -73,7 +73,7 @@ go run main.go
 
 <hr/>
 
-## **目录结构**
+## 目录结构
 
 ```
 SongReviewScanner
